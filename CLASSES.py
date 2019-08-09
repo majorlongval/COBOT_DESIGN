@@ -57,3 +57,8 @@ class LabelInput(tk.Frame):
         else:  # input must be an Entry-type widget with no variable
             self.input.delete(0, tk.END)
             self.input.insert(0, value)
+
+
+""" class rectangle(tk.Canvas):
+    def __init__(self, canvas_obj, blc=(0, 0), trc=(10, 10), *args, **kwargs):
+        width = canvas_obj.winfo. """
